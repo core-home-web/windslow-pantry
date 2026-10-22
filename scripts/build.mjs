@@ -20,6 +20,11 @@ function write(path, html) {
 }
 
 /* ------------------------------------------------------------- head/seo */
+// Runs before first paint. Turns motion on only for visitors who have not asked
+// for reduced motion, carries the page curtain across navigations, and reveals
+// the page after 2.5s if the animation scripts never load.
+const MOTION_BOOT = `(function(r){try{if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;r.classList.add("motion");if(sessionStorage.getItem("wp-curtain")){sessionStorage.removeItem("wp-curtain");r.classList.add("curtain-in")}setTimeout(function(){r.classList.add("motion-ready");r.classList.remove("curtain-in")},2500)}catch(e){}})(document.documentElement)`;
+
 function head(L, key, { noindex = false, metaKey = key } = {}) {
   const title = t(L, `meta.${metaKey}.title`);
   const description = t(L, `meta.${metaKey}.description`);
@@ -64,6 +69,10 @@ function head(L, key, { noindex = false, metaKey = key } = {}) {
   <link rel="preload" href="/assets/fonts/playfair-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/tokens.css">
   <link rel="stylesheet" href="/assets/css/site.css">
+  <script>${MOTION_BOOT}</script>
+  <script src="/assets/js/vendor/gsap.min.js" defer></script>
+  <script src="/assets/js/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="/assets/js/motion.js" defer></script>
   <script src="/assets/js/main.js" defer></script>`;
 }
 

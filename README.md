@@ -46,6 +46,17 @@ Each page gets a unique title and meta description, a canonical URL, `hreflang` 
 
 The language menu, footer links, hreflang tags, sitemap and share images pick up the new language automatically. Visitors are never redirected; if their browser prefers another published language, a small banner offers it once and remembers the choice.
 
+## Motion
+
+Animations use [GSAP](https://gsap.com) 3.13 with ScrollTrigger, self hosted in `public/assets/js/vendor/` (GSAP's free standard license). Everything lives in `public/assets/js/motion.js`:
+
+- a cornflower page curtain with the plaid edge and badge that rises on exit and lifts on arrival,
+- a hero intro (the script kicker writes in, the headline rises word by word, packages are set down and sway),
+- scroll reveals: cards laid out one by one, fruit prints rolling in, material swatches turning, a drifting plaid and gentle parallax on fruit,
+- arch-window reveals and an "in view" marker on the Collection page, plus smooth FAQ and menu transitions.
+
+Motion follows the brand: unhurried, eased and settling. A tiny script in `<head>` turns it on only when the visitor has not asked for reduced motion, ambient sways come to rest within five seconds (WCAG 2.2.2), and the page stays fully visible without JavaScript. The style guide's Motion section lists the easing and timing tokens and has a replay demo.
+
 ## Accessibility and color blindness
 
 The brand colors are used exactly as specified in the guide. Accessibility comes from how they are paired, not from changing them:

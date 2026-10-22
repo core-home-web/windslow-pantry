@@ -357,6 +357,30 @@ a:hover { text-decoration-thickness: 2px; }
 .site-footer__base p { margin: 0; }
 @media (max-width: 860px) { .site-footer__grid { grid-template-columns: 1fr 1fr; } .site-footer__brand { grid-column: 1 / -1; } }
 
+/* -------------------------------------------------------------- motion */
+/* motion.js drives everything; these rules only cover the moments before it
+   runs. The "motion" class is added in <head> only when the visitor has not
+   asked for reduced motion, and a timer reveals the page if scripts fail. */
+.motion:not(.motion-ready) .hero__copy > *,
+.motion:not(.motion-ready) .hero__art,
+.motion:not(.motion-ready) .hero__spot { visibility: hidden; }
+
+.curtain-in body::after,
+.curtain {
+  position: fixed; inset: 0; z-index: 1000; pointer-events: none;
+  background: url(/assets/img/brand/plaid.svg) 0 0 / 126px 126px repeat-x, var(--wp-cornflower);
+}
+.curtain-in body::after { content: ""; background: url(/assets/img/brand/logo.svg) center / 170px auto no-repeat, url(/assets/img/brand/plaid.svg) 0 0 / 126px 126px repeat-x, var(--wp-cornflower); }
+.curtain { display: grid; place-items: center; }
+.curtain img { width: 170px; height: auto; }
+
+.word { display: inline-block; overflow: clip; overflow-clip-margin: 0.1em; vertical-align: top; padding-bottom: 0.14em; margin-bottom: -0.14em; }
+.word__inner { display: inline-block; }
+.quote .word { overflow: visible; }
+
+/* the product in view is marked by fill and an underline, not color alone */
+.chip[aria-current="true"] { background: var(--wp-ink); border-color: var(--wp-ink); color: var(--wp-white); text-decoration: underline; text-underline-offset: 0.25em; }
+
 /* ------------------------------------------------------ user settings */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

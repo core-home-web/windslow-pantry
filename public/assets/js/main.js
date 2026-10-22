@@ -61,6 +61,7 @@
       btn.textContent = s.dismiss;
       btn.addEventListener("click", () => { store.set("wp-lang", current); bar.remove(); });
       document.body.insertBefore(bar, document.querySelector(".site-header"));
+      if (window.WPMotion) window.WPMotion.banner(bar);
     }
   }
 })();

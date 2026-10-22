@@ -72,6 +72,7 @@ const NAV = [
   ["elements", "Design elements"],
   ["packaging", "Packaging"],
   ["components", "Components"],
+  ["motion", "Motion"],
   ["voice", "Voice and copy"],
   ["i18n", "Translation"],
   ["seo", "SEO and sharing"],
@@ -330,6 +331,63 @@ export function styleguide() {
     )}
 
     ${section(
+      "motion",
+      "Motion",
+      `<div class="sg-grid sg-grid--2">
+        <div>
+          <h3 class="h3">Principles</h3>
+          <ul class="sg-rules" role="list">
+            <li>${icon("check")}<span><strong>Set down, then settle.</strong> Things arrive like goods placed on a market table: a soft drop with a small overshoot, never a snap.</span></li>
+            <li>${icon("check")}<span><strong>Unhurried.</strong> Most moves take 0.6 to 1.3 seconds and are staggered so the eye can follow one thing at a time.</span></li>
+            <li>${icon("check")}<span><strong>Borrowed from the market.</strong> Tags sway on their pegs, fruit rolls into place, wood slices turn, the plaid drifts as you scroll.</span></li>
+            <li>${icon("check")}<span><strong>Quiet when idle.</strong> Ambient sways play once and come to rest within five seconds (WCAG 2.2.2).</span></li>
+            <li>${icon("check")}<span><strong>Optional.</strong> Visitors who ask for reduced motion get the same page with no animation, and every element is visible without JavaScript.</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="h3">Tokens</h3>
+          <div class="sg-table-wrap">
+            <table class="sg-table">
+              <caption class="visually-hidden">Motion tokens</caption>
+              <thead><tr><th scope="col">Token</th><th scope="col">Value</th><th scope="col">Use</th></tr></thead>
+              <tbody>
+                <tr><td>ease.out</td><td><code>power3.out</code></td><td>Reveals and text</td></tr>
+                <tr><td>ease.settle</td><td><code>back.out(1.5)</code></td><td>Packages, cards, fruit</td></tr>
+                <tr><td>ease.sway</td><td><code>sine.inOut</code></td><td>Idle sway and bob</td></tr>
+                <tr><td>ease.curtain</td><td><code>power3.inOut</code></td><td>Page curtain, panel wipes</td></tr>
+                <tr><td>duration.quick</td><td>0.45s</td><td>Menus, small UI</td></tr>
+                <tr><td>duration.base</td><td>0.9s</td><td>Most reveals</td></tr>
+                <tr><td>duration.slow</td><td>1.3s</td><td>Script kicker, panels, photos</td></tr>
+                <tr><td>stagger</td><td>0.05 to 0.14s</td><td>Words, cards, lists</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <h3 class="h3">Try it</h3>
+      <div class="sg-motion-demo">
+        <div class="sg-motion-demo__stage" aria-hidden="true">
+          <img class="sg-md-pkg" src="/assets/img/products/bag-clips.webp" alt="" style="transform:rotate(-5deg)">
+          <img class="sg-md-pkg" src="/assets/img/products/utensil-rest.webp" alt="" style="transform:rotate(3deg)">
+          <img class="sg-md-pkg" src="/assets/img/products/funnels.webp" alt="" style="transform:rotate(7deg)">
+          <div class="sg-md-tile" style="background-image:url(/assets/img/patterns/orange.webp)"></div>
+        </div>
+        <button class="btn" type="button" id="sg-motion-play">Replay the motion</button>
+        <p class="small" id="sg-motion-note">Packages settle, then sway once. The orange print rolls in.</p>
+      </div>
+      <h3 class="h3">Where it is used</h3>
+      <ul class="sg-rules" role="list">
+        <li>${icon("check")}<span><strong>Page curtain</strong>: the cornflower cover with the plaid edge and badge rises when you follow a link and lifts away on the next page.</span></li>
+        <li>${icon("check")}<span><strong>Hero</strong>: the script kicker writes itself in, the headline rises word by word, the packages are set down and sway.</span></li>
+        <li>${icon("check")}<span><strong>Scroll</strong>: section headings and copy rise in, product cards are laid out one by one, fruit prints roll in, material swatches turn, the plaid drifts and fruit spots float with gentle parallax.</span></li>
+        <li>${icon("check")}<span><strong>Collection</strong>: each product panel opens like an arch window, and the jump menu marks the product in view.</span></li>
+        <li>${icon("check")}<span><strong>Interface</strong>: FAQ answers open smoothly, and the mobile menu and language menu ease in.</span></li>
+      </ul>
+      <p class="small">Built with GSAP 3.13 and ScrollTrigger, self hosted in <code>public/assets/js/vendor/</code>. All motion lives in <code>public/assets/js/motion.js</code>.</p>`,
+      "Motion should feel like a slow Saturday morning at the market. It adds warmth, never urgency."
+    )}
+
+    ${section(
       "voice",
       "Voice and copy",
       `<div class="sg-grid sg-grid--2">
@@ -404,6 +462,7 @@ export function styleguide() {
   <link rel="stylesheet" href="/assets/css/tokens.css">
   <link rel="stylesheet" href="/assets/css/site.css">
   <link rel="stylesheet" href="/assets/css/styleguide.css">
+  <script src="/assets/js/vendor/gsap.min.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
   <script src="/assets/js/styleguide.js" defer></script>
 </head>

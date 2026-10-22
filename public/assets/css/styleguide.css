@@ -142,3 +142,10 @@ html[data-cvd="achromatopsia"] .sg-main { filter: url(#achromatopsia); }
 .sg-table th, .sg-table td { text-align: left; vertical-align: top; padding: var(--space-3); border-bottom: 1px solid var(--color-border); }
 .sg-table th { background: var(--wp-ink); color: var(--wp-white); }
 .sg-count { display: inline-block; margin-left: var(--space-1); padding: 0 0.5em; border-radius: 999px; background: var(--wp-cream); font-weight: 700; font-variant-numeric: tabular-nums; }
+
+.sg-motion-demo { display: grid; justify-items: start; gap: var(--space-4); padding: var(--space-6); background: var(--wp-cornflower); border-radius: var(--radius); }
+.sg-motion-demo__stage { position: relative; display: flex; align-items: flex-end; gap: var(--space-4); height: 260px; }
+.sg-md-pkg { height: 220px; width: auto; filter: drop-shadow(0 12px 14px rgba(28, 37, 46, 0.25)); }
+.sg-md-tile { width: 150px; height: 150px; border-radius: 50%; border: 5px solid var(--wp-white); background-size: 120px auto; box-shadow: var(--shadow); }
+.sg-motion-demo .small { margin: 0; }
+@media (max-width: 760px) { .sg-md-pkg { height: 140px; } .sg-md-tile { width: 90px; height: 90px; } .sg-motion-demo__stage { height: 170px; } }
