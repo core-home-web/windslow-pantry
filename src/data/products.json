@@ -1,0 +1,47 @@
+{
+  "products": [
+    {
+      "slug": "bamboo-utensil-set",
+      "image": { "src": "/assets/img/products/utensil-set.webp", "width": 520, "height": 1844 },
+      "print": "lemon",
+      "panel": "lemon",
+      "features": ["bamboo", "pan", "spoon"]
+    },
+    {
+      "slug": "acacia-cutting-board",
+      "image": { "src": "/assets/img/products/cutting-board.webp", "width": 760, "height": 1173 },
+      "detail": { "src": "/assets/img/products/board-engraved.webp", "width": 900, "height": 696 },
+      "print": "lemon",
+      "panel": "acacia",
+      "features": ["wood", "drop", "hook", "badge"]
+    },
+    {
+      "slug": "silicone-utensil-rest",
+      "image": { "src": "/assets/img/products/utensil-rest.webp", "width": 640, "height": 873 },
+      "print": "blueberry",
+      "panel": "blueberry",
+      "features": ["leaf", "thumb", "heat", "dishwasher"]
+    },
+    {
+      "slug": "silicone-funnels",
+      "image": { "src": "/assets/img/products/funnels.webp", "width": 640, "height": 1034 },
+      "print": "strawberry",
+      "panel": "rose",
+      "features": ["sizes", "nest", "flex"]
+    },
+    {
+      "slug": "magnetic-bag-clips",
+      "image": { "src": "/assets/img/products/bag-clips.webp", "width": 760, "height": 1190 },
+      "print": "lemon",
+      "panel": "lemon",
+      "features": ["leaf", "shield", "magnet", "multi"]
+    }
+  ],
+  "prints": [
+    { "id": "lemon", "tile": "/assets/img/patterns/lemon.webp", "spot": "/assets/img/fruit/lemon.webp", "spotWidth": 251, "spotHeight": 161 },
+    { "id": "blueberry", "tile": "/assets/img/patterns/blueberry-stripe.webp", "spot": "/assets/img/fruit/blueberries.webp", "spotWidth": 289, "spotHeight": 274 },
+    { "id": "cherry", "tile": "/assets/img/patterns/cherry.webp", "spot": "/assets/img/fruit/cherries.webp", "spotWidth": 183, "spotHeight": 176 },
+    { "id": "orange", "tile": "/assets/img/patterns/orange.webp", "spot": "/assets/img/fruit/orange.webp", "spotWidth": 221, "spotHeight": 176 },
+    { "id": "lime", "tile": "/assets/img/patterns/lime.webp", "spot": "/assets/img/fruit/lime.webp", "spotWidth": 234, "spotHeight": 160 }
+  ]
+}

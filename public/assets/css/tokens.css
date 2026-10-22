@@ -1,0 +1,119 @@
+/* Winslow Pantry design tokens.
+   Brand colors come straight from the Brand Guidelines (Pantone C references).
+   The only web additions are an ink tint for secondary text and "harbor deep",
+   a darker step of 7698 C used for small link text so it clears WCAG AA. */
+
+@font-face {
+  font-family: "Instrument Sans";
+  src: url(/assets/fonts/instrument-sans-latin.woff2) format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Instrument Sans";
+  src: url(/assets/fonts/instrument-sans-latin-ext.woff2) format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/assets/fonts/playfair-latin.woff2) format("woff2");
+  font-weight: 400 900;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/assets/fonts/playfair-latin-ext.woff2) format("woff2");
+  font-weight: 400 900;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Yellowtail";
+  src: url(/assets/fonts/yellowtail-latin.woff2) format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Yellowtail";
+  src: url(/assets/fonts/yellowtail-latin-ext.woff2) format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+:root {
+  /* Brand palette (Pantone C) */
+  --wp-oat: #CDC2AB;        /* 4246 C */
+  --wp-rose: #D1848A;       /* 2446 C */
+  --wp-terracotta: #CC9475; /* 4034 C */
+  --wp-wheat: #E8CCA6;      /* 4029 C */
+  --wp-sage: #ADB39C;       /* 4218 C */
+  --wp-mist: #BEC4C9;       /* 428 C */
+  --wp-harbor: #3F738C;     /* 7698 C */
+  --wp-ink: #1C252E;        /* 433 C */
+  --wp-cornflower: #9BB4CB; /* 2155 C */
+  --wp-lake: #94BECC;       /* 4156 C */
+
+  /* Logo color variations */
+  --wp-logo-ink: #231F20;
+  --wp-logo-olive: #727A4D;
+  --wp-logo-blue: #5781A6;
+  --wp-logo-taupe: #968A87;
+
+  /* Surfaces */
+  --wp-cream: #F2E3CE;      /* guide page background */
+  --wp-paper: #FBF6EE;      /* watercolor paper */
+  --wp-white: #FFFFFF;
+
+  /* Accessible web steps (never used to recolor the logo or packaging) */
+  --wp-harbor-deep: #33607A; /* 5.4:1 on cream, 6.8:1 on white */
+  --wp-ink-soft: #3B4652;    /* 8.4:1 on cream */
+
+  /* Roles */
+  --color-bg: var(--wp-cream);
+  --color-surface: var(--wp-paper);
+  --color-text: var(--wp-ink);
+  --color-text-soft: var(--wp-ink-soft);
+  --color-link: var(--wp-harbor-deep);
+  --color-accent: var(--wp-harbor);
+  --color-border: rgba(28, 37, 46, 0.18);
+  --color-border-strong: var(--wp-harbor); /* 4.1:1 on cream, for UI outlines */
+  --color-focus: var(--wp-ink);
+  --color-focus-ring: var(--wp-white);
+
+  /* Type */
+  --font-display: "Begum", "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-script: "Quimby Mayoral", "Yellowtail", "Brush Script MT", cursive;
+  --font-body: "Instrument Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --step--1: clamp(0.84rem, 0.82rem + 0.1vw, 0.9rem);
+  --step-0: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --step-1: clamp(1.18rem, 1.1rem + 0.35vw, 1.35rem);
+  --step-2: clamp(1.4rem, 1.25rem + 0.7vw, 1.8rem);
+  --step-3: clamp(1.75rem, 1.45rem + 1.4vw, 2.6rem);
+  --step-4: clamp(2.3rem, 1.75rem + 2.6vw, 3.9rem);
+  --step-5: clamp(2.7rem, 1.9rem + 3.8vw, 5rem);
+
+  /* Space and shape */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 6.5rem;
+  --radius-sm: 6px;
+  --radius: 14px;
+  --radius-lg: 28px;
+  --radius-arch: 999px 999px 18px 18px;
+  --shadow: 0 1px 2px rgba(28, 37, 46, 0.06), 0 10px 30px -12px rgba(28, 37, 46, 0.22);
+  --container: 1180px;
+  --gutter: clamp(1rem, 4vw, 2rem);
+}

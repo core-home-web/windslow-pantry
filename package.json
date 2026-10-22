@@ -1,0 +1,16 @@
+{
+  "name": "winslow-pantry",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Winslow Pantry brochure site and internal brand style guide, served by a Cloudflare Worker.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "og": "node scripts/og.mjs",
+    "dev": "node scripts/build.mjs && wrangler dev",
+    "deploy": "node scripts/build.mjs && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

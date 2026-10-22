@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "home": {
+      "title": "Winslow Pantry | Ustensiles au charme du marché",
+      "description": "Des ustensiles de cuisine inspirés du marché fermier : bambou, planche en acacia et silicone, habillés de jolis motifs de fruits frais."
+    },
+    "story": {
+      "title": "Notre histoire | Winslow Pantry",
+      "description": "Winslow Pantry est né un samedi matin au marché. Découvrez comment la vie simple et les couleurs des saisons ont façonné notre collection."
+    },
+    "collection": {
+      "title": "La collection | Winslow Pantry",
+      "description": "Découvrez la collection : ustensiles en bambou, planche en acacia, repose-cuillères et entonnoirs en silicone, pinces magnétiques pour sachets."
+    },
+    "contact": {
+      "title": "Contact | Winslow Pantry",
+      "description": "Une question sur un produit, un projet de distribution ou une demande presse pour Winslow Pantry ? Écrivez-nous, nous vous répondrons vite."
+    },
+    "notFound": {
+      "title": "Page introuvable | Winslow Pantry",
+      "description": "Nous n'avons pas trouvé cette page. Retournez à l'accueil de Winslow Pantry ou parcourez la collection."
+    },
+    "ogAlt": {
+      "home": "Le logo Winslow Pantry à côté d'un étal de ferme rempli de produits frais",
+      "story": "Winslow Pantry : Tout a commencé au marché",
+      "collection": "Ustensiles de cuisine Winslow Pantry dans leurs emballages à motifs de fruits",
+      "contact": "Winslow Pantry : Nous serions ravis de vous lire"
+    }
+  },
+  "global": {
+    "skip": "Aller au contenu principal",
+    "homeLabel": "Accueil Winslow Pantry",
+    "menu": "Menu",
+    "primaryNav": "Principale",
+    "nav": { "collection": "Collection", "story": "Notre histoire", "contact": "Contact" },
+    "language": "Langue",
+    "languageMenu": "Choisir une langue",
+    "footerTagline": "Des ustensiles de cuisine au charme simple du marché fermier.",
+    "footerExplore": "Explorer",
+    "footerHello": "Nous écrire",
+    "footerHome": "Accueil",
+    "copyright": "© {year} Winslow Pantry. Tous droits réservés.",
+    "suggest": "Cette page est aussi disponible en français.",
+    "suggestLink": "Voir en français",
+    "suggestDismiss": "Non merci",
+    "seeDetails": "Voir les détails",
+    "printLabel": "Motif"
+  },
+  "prints": {
+    "lemon": { "name": "Citron", "note": "Lumineux comme un matin de juillet" },
+    "blueberry": { "name": "Myrtille", "note": "Fraîche, douce et un peu sauvage" },
+    "cherry": { "name": "Cerise", "note": "Le premier signe de l'été" },
+    "orange": { "name": "Orange", "note": "Un rayon de soleil dans la main" },
+    "lime": { "name": "Citron vert", "note": "Vif et plein de peps" },
+    "strawberry": { "name": "Fraise", "note": "Sucrée et tout juste cueillie" }
+  },
+  "home": {
+    "heroKicker": "tout droit du marché",
+    "heroTitle": "Un charme simple au cœur de la maison",
+    "heroLead": "Winslow Pantry apporte dans votre cuisine l'esprit détendu d'un samedi au marché fermier. Des matériaux sincères, de joyeux motifs de fruits et des ustensiles qui méritent leur place près des fourneaux.",
+    "heroCta": "Découvrir la collection",
+    "heroCta2": "Lire notre histoire",
+    "heroAlt": "Emballages Winslow Pantry du repose-cuillères en silicone, des pinces magnétiques et des entonnoirs en silicone",
+    "storyKicker": "Notre histoire",
+    "storyTitle": "Inspirés par le marché fermier",
+    "storyP1": "Vous connaissez cette sensation. Des cagettes de maïs doux, des pots de miel qui brillent au soleil, une nappe vichy sur une table pliante et quelqu'un ravi de vous dire quelles pêches sont mûres aujourd'hui.",
+    "storyP2": "Winslow Pantry est né de cette sensation. Notre collection allie un charme intemporel à une vraie praticité au quotidien, pour que les ustensiles que vous utilisez le plus paraissent aussi frais et accueillants que le premier marché de la saison.",
+    "storyLink": "Lire toute l'histoire",
+    "storyAlt": "Un étal de ferme au bord d'un champ, avec des cagettes de tomates, de poivrons et de courges et des pots de miel sur une nappe vichy",
+    "collectionKicker": "La collection",
+    "collectionTitle": "Cinq alliés en cuisine pour commencer",
+    "collectionLead": "Chaque pièce est pensée pour servir tous les jours et porte un motif que vous aurez plaisir à voir sur le plan de travail.",
+    "collectionCta": "Voir toute la collection",
+    "printsKicker": "Nos motifs",
+    "printsTitle": "Cueillis sur l'étal du marché",
+    "printsLead": "Nos emballages portent des fruits peints à l'aquarelle, tels qu'ils sont à leur meilleur. Chaque motif a un nom, pour retrouver facilement celui que vous préférez.",
+    "materialsKicker": "Matériaux",
+    "materialsTitle": "Des matériaux sincères, faits pour servir",
+    "materials": {
+      "bamboo": { "name": "Bambou", "text": "Léger, solide et doux en main. Notre set d'ustensiles est fait pour mélanger, retourner et servir." },
+      "acacia": { "name": "Acacia", "text": "Un veinage chaleureux qui a toute sa place sur la table. Notre planche à découper est en bois d'acacia 100 % naturel." },
+      "silicone": { "name": "Silicone", "text": "Souple et facile à rincer. Notre repose-cuillères est sans BPA, résiste à la chaleur et passe au lave-vaisselle." }
+    },
+    "valuesKicker": "Ce qui compte pour nous",
+    "valuesTitle": "Pensé pour les vraies cuisines",
+    "values": {
+      "charm": { "name": "Un charme intemporel", "text": "Des créations qui semblent familières dès le premier jour et qui seront toujours aussi belles dans des années." },
+      "function": { "name": "Pratique au quotidien", "text": "Chaque ustensile a un rôle et le remplit bien. Pas de gadgets, pas de tiroirs encombrés." },
+      "spirit": { "name": "Un esprit frais et accueillant", "text": "De la couleur et des motifs qui donnent à un dîner de semaine un petit air de samedi." }
+    },
+    "partnerKicker": "Pour les revendeurs",
+    "partnerTitle": "Accueillez Winslow Pantry dans vos rayons",
+    "partnerText": "Nous construisons en ce moment nos premiers partenariats avec des boutiques. Si vos clients aiment les cuisines pleines de gaieté, parlons-en.",
+    "partnerCta": "Nous contacter"
+  },
+  "story": {
+    "heroKicker": "notre histoire",
+    "heroTitle": "Tout a commencé au marché",
+    "heroLead": "Winslow Pantry s'inspire du charme du marché fermier et d'un mode de vie plus simple.",
+    "s1Title": "Un matin plus simple",
+    "s1P1": "Certains des plus beaux matins commencent avec un sac en toile et aucun plan précis. On flâne entre les étals, on goûte une fraise, on discute avec le producteur et on repart avec plus que prévu.",
+    "s1P2": "Nous voulions que notre cuisine ressemble à ça. Sans hâte, généreuse et un peu colorée. Nous avons donc imaginé Winslow Pantry autour de ce qui rend le marché si particulier : des matériaux sincères, l'abondance de chaque saison et un accueil chaleureux.",
+    "quote": "Enracinée dans l'abondance des couleurs et les sensations nouvelles qu'apporte chaque saison.",
+    "quoteSource": "L'histoire de la marque Winslow Pantry",
+    "s2Title": "Charme intemporel, praticité au quotidien",
+    "s2P1": "Un bon ustensile doit être joli accroché près de la cuisinière et travailler dur un mardi à dix-huit heures. Nous choisissons le bambou, l'acacia et le silicone parce qu'ils sont durables, faciles à entretenir et agréables en main.",
+    "s2P2": "Puis nous ajoutons les détails qui font sourire, comme un citron à l'aquarelle sur l'emballage ou notre logo gravé dans le coin d'une planche à découper.",
+    "s3Title": "Au rythme des saisons",
+    "s3P1": "Nos motifs suivent le calendrier du marché. Citrons et citrons verts, cerises et myrtilles, oranges empilées dans une cagette en bois. Chacun apporte un esprit frais et accueillant au cœur de la maison.",
+    "s3Alt": "Une planche à découper en acacia avec le logo Winslow Pantry gravé dans le coin",
+    "ctaTitle": "Découvrez nos créations",
+    "ctaText": "Cinq pièces pour commencer, chacune prête pour la cuisine de tous les jours.",
+    "ctaButton": "Découvrir la collection"
+  },
+  "collection": {
+    "heroKicker": "la collection",
+    "heroTitle": "Des ustensiles du quotidien au charme du marché",
+    "heroLead": "Cinq pièces pour commencer, chacune faite pour servir souvent et durer longtemps.",
+    "jump": "Aller à un produit",
+    "included": "Contenu",
+    "features": "Caractéristiques",
+    "care": "Entretien",
+    "ctaTitle": "Vous voulez Winslow Pantry dans votre boutique ?",
+    "ctaText": "Nous accueillons nos premiers revendeurs. Parlez-nous de votre boutique et nous reviendrons vers vous.",
+    "ctaButton": "Contacter notre équipe"
+  },
+  "products": {
+    "bamboo-utensil-set": {
+      "name": "Set d'ustensiles en bambou",
+      "set": "Set de 5 pièces",
+      "short": "Cinq ustensiles en bambou pour mélanger, retourner et servir.",
+      "description": "Un bambou lisse et léger, agréable en main. Le set couvre presque tout ce que vous cuisinez dans la semaine, des crêpes du dimanche à une grande marmite de chili.",
+      "included": ["Cuillère ajourée", "Cuillère", "Cuillère-fourchette", "Spatule", "Spatule ajourée"],
+      "features": ["Bambou naturel", "Respecte vos poêles", "Cinq formes essentielles"],
+      "care": "Lavez à la main à l'eau chaude savonneuse et séchez aussitôt. Passez un peu d'huile alimentaire quand le bois paraît sec.",
+      "alt": "Set d'ustensiles en bambou Winslow Pantry dans son emballage à motif citron"
+    },
+    "acacia-cutting-board": {
+      "name": "Planche à découper en acacia",
+      "set": "Avec rigole à jus",
+      "short": "Bois d'acacia 100 % naturel avec une rigole qui retient chaque goutte.",
+      "description": "Tranchez une tomate bien mûre ou découpez un poulet rôti sans que le jus coule sur le plan de travail. La rigole tout autour garde tout propre, et le veinage chaleureux de l'acacia rend la planche assez belle pour servir à table.",
+      "included": ["Une planche à découper en acacia avec rigole à jus"],
+      "features": ["Bois d'acacia 100 % naturel", "Rigole à jus", "Trou de suspension", "Logo Winslow Pantry gravé"],
+      "care": "Lavage à la main uniquement. Ne la laissez pas tremper et ne la mettez pas au lave-vaisselle. Huilez-la de temps en temps pour garder un bois éclatant.",
+      "alt": "Planche à découper en acacia Winslow Pantry avec une étiquette à motif citron"
+    },
+    "silicone-utensil-rest": {
+      "name": "Repose-cuillères en silicone",
+      "set": "Jusqu'à 4 ustensiles",
+      "short": "Une place bien rangée pour poser vos cuillères pendant la cuisson.",
+      "description": "Posez jusqu'à quatre ustensiles à la fois et gardez la sauce loin de la plaque. Le silicone souple reste bien en place sur le plan de travail et se rince en quelques secondes.",
+      "included": ["Un repose-cuillères en silicone à quatre encoches"],
+      "features": ["Sans BPA", "Évite les salissures", "Résiste à la chaleur jusqu'à 218 °C (425 °F)", "Passe au lave-vaisselle"],
+      "care": "Passe au lave-vaisselle. Vous pouvez aussi le laver à la main à l'eau chaude savonneuse.",
+      "alt": "Repose-cuillères en silicone Winslow Pantry dans son emballage à motif myrtille"
+    },
+    "silicone-funnels": {
+      "name": "Entonnoirs en silicone",
+      "set": "Set de 3 pièces",
+      "short": "Trois tailles pour les bocaux, les bouteilles et les pots à épices.",
+      "description": "Remplissez un bocal de confiture maison, versez de l'huile d'olive dans une bouteille ou remplissez la salière sans en mettre à côté. Les trois tailles s'emboîtent et ne prennent presque pas de place dans le tiroir.",
+      "included": ["Petit entonnoir", "Entonnoir moyen", "Grand entonnoir"],
+      "features": ["Trois tailles", "S'emboîtent pour le rangement", "Silicone souple"],
+      "care": "Lavez à l'eau chaude savonneuse et laissez sécher avant de les emboîter.",
+      "alt": "Set de trois entonnoirs en silicone Winslow Pantry dans leur emballage à motif fraise"
+    },
+    "magnetic-bag-clips": {
+      "name": "Pinces magnétiques pour sachets",
+      "set": "Set de 10 pièces",
+      "short": "Des en-cas qui restent frais et des pinces toujours à portée sur le frigo.",
+      "description": "Fermez les sachets de chips, de café, de farine ou de petits pois surgelés, puis collez les pinces sur le frigo pour les avoir toujours sous la main. Dix pinces en cinq couleurs douces : avoine, blé, bleu lac, bleu marine et pierre.",
+      "included": ["10 pinces magnétiques en 5 couleurs"],
+      "features": ["Sans BPA", "Conception robuste", "Dos aimanté", "Usages multiples"],
+      "care": "Nettoyez avec un chiffon humide.",
+      "alt": "Pinces magnétiques Winslow Pantry dans leur emballage à motif citron"
+    }
+  },
+  "contact": {
+    "heroKicker": "écrivez-nous",
+    "heroTitle": "Nous serions ravis de vous lire",
+    "heroLead": "Une question sur un produit, l'envie de vendre Winslow Pantry ou une histoire à raconter ? Choisissez un sujet ci-dessous et envoyez-nous un message.",
+    "cards": {
+      "wholesale": { "title": "Boutiques et vente en gros", "text": "Parlez-nous de votre boutique et de sa situation. Nous vous enverrons notre catalogue et les prochaines étapes.", "button": "Écrire pour la vente en gros", "subject": "Demande vente en gros" },
+      "care": { "title": "Questions sur les produits", "text": "Besoin de conseils d'entretien ou d'une réponse sur un achat ? Nous sommes là pour vous aider.", "button": "Poser une question", "subject": "Question sur un produit" },
+      "press": { "title": "Presse et partenariats", "text": "Vous préparez un article ou une collaboration ? Nous pouvons partager des images et des informations sur la marque.", "button": "Écrire pour la presse", "subject": "Demande presse" }
+    },
+    "direct": "Ou écrivez-nous directement à",
+    "opensEmail": "ouvre votre messagerie",
+    "faqTitle": "Bon à savoir",
+    "faq": [
+      { "q": "Où acheter Winslow Pantry ?", "a": "Winslow Pantry arrive bientôt en boutique. Écrivez-nous et nous vous dirons où le trouver près de chez vous." },
+      { "q": "Le repose-cuillères en silicone est-il sans BPA ?", "a": "Oui. Il est sans BPA, résiste à la chaleur jusqu'à 218 °C (425 °F) et passe au lave-vaisselle." },
+      { "q": "Comment entretenir le bois et le bambou ?", "a": "Lavez à la main, séchez aussitôt et évitez le lave-vaisselle. Un peu d'huile alimentaire toutes les quelques semaines garde le bois doux et beau." },
+      { "q": "Puis-je lire ce site dans une autre langue ?", "a": "Oui. Utilisez le menu des langues en haut de chaque page pour passer de l'anglais à l'espagnol ou au français." }
+    ]
+  },
+  "notFound": {
+    "kicker": "oh là là",
+    "title": "Cette page s'est égarée",
+    "text": "Nous n'avons pas trouvé la page demandée. Elle a peut-être changé d'adresse, ou le lien n'est plus à jour.",
+    "home": "Retour à l'accueil",
+    "collection": "Parcourir la collection"
+  }
+}

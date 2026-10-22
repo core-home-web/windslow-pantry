@@ -1,0 +1,12 @@
+{
+  "name": "Winslow Pantry",
+  "url": "https://winslowpantry.com",
+  "contactEmail": "hello@winslowpantry.com",
+  "themeColor": "#9BB4CB",
+  "defaultLocale": "en",
+  "locales": [
+    { "code": "en", "name": "English", "hreflang": "en", "og": "en_US" },
+    { "code": "es", "name": "Español", "hreflang": "es", "og": "es_MX" },
+    { "code": "fr", "name": "Français", "hreflang": "fr", "og": "fr_FR" }
+  ]
+}
